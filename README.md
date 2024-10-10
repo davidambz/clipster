@@ -45,13 +45,7 @@ clipster/        # Main project folder
    poetry install
    ```
 
-3. Make sure FFmpeg is installed on your system. On Arch Linux, you can install it com:
-
-   ```
-   sudo pacman -S ffmpeg
-   ```
-
-4. Copy the `.env-template` to `.env` and edit it to set the `CLIPESTER_PATH`:
+3. Copy the `.env-template` to `.env` and edit it to set the `CLIPESTER_PATH`:
 
    ```
    cp .env-template .env
